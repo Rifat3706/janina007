@@ -6,6 +6,9 @@ body{
 h1{
     font-size: 47px;
 }
+h2{
+    font-size: 30px;
+}
 .orange-color{
     color: orange;
 }
@@ -18,6 +21,8 @@ h1{
 }
 .flexible-area{
     display: flex;
+}
+.top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     padding-left: 24px;
@@ -29,7 +34,7 @@ h1{
     
 }
 .half-width img{
-    width: 80%;
+    width: 90%;
 }
 .resume-button{
     text-decoration: none;
@@ -42,4 +47,27 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experiences-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width: 40%;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+#full-stack-web-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(#FB6756, #FA6F5B);
+    border-image-slice: 1;
+}
+#baby-web-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(#0006FF, #00FCFF);
+    border-image-slice: 1;
 }
